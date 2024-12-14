@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="bg-hex-dark p-10">
+    <p class="font-serif text-center font-extrabold text-white text-4xl mb-10">Rock Paper Scissors</p>
+    <div class="space-x-4">
+        <div class="flex justify-evenly border-2 p-4 mb-10">
+            <button onclick="playGame('rock');" class="border-2 border-white hover:bg-white p-4 rounded-full">
+                <img src="/img/rock-emoji.png" alt="Rock" width="100px">
+            </button>
+            <button onclick="playGame('paper');" class="border-2 border-white hover:bg-white p-4 rounded-full">
+                <img src="/img/paper-emoji.png" alt="Paper" width="100px">
+            </button>
+            <button onclick="playGame('scissors');" class="border-2 border-white hover:bg-white p-4 rounded-full">
+                <img src="/img/scissors-emoji.png" alt="Scissors" width="100px">
+            </button>
+        </div>
+        <p class="js-moves flex justify-evenly text-white text-2xl mb-10 border-2 p-4 text-center"></p>
+        <p class="js-result text-center text-white text-2xl mb-10"></p>
+        <p class="js-score text-center text-white text-2xl mb-10"></p>
+        <div class="text-center">
+            <button onclick="resetGame();" class="reset">
+                Reset Score
+            </button>
+            <p class="js-result text-center text-white text-2xl mb-10">&copy; Kelly J Nambale. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

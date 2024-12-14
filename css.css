@@ -1,0 +1,82 @@
+body {
+    background-color: #1a1a1a; /* Hex-dark background */
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.font-serif {
+    font-family: serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-4xl {
+    font-size: 2.5rem;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+.reset
+{
+    color: black;
+}
+.flex {
+    display: flex;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.hover\\:bg-white:hover {
+    background-color: white;
+}
+
+.hover\\:bg-black:hover {
+    background-color: black;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.bg-hex-dark {
+    background-color: #1a1a1a;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
